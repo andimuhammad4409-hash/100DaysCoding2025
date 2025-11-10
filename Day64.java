@@ -18,7 +18,7 @@ public class Day64 {
             System.out.print(m);
             
             total *= m;
-        }
+            }
         }
         
         System.out.println(total);
