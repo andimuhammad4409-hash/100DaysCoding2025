@@ -15,16 +15,16 @@ public class Day64 {
             total = 1;
         } else {
             for (int i = 1;i <= pangkat ;i++) {
-            System.out.print(m);
             
             total *= m;
-            }
+        }
         }
         
-        System.out.println(total);
+        System.out.println("----------------");
+        System.out.println(m+"^"+pangkat+" = "+total);
         
         
         
         
     }
-}
+    }
